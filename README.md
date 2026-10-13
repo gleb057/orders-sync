@@ -1,7 +1,7 @@
 # orders-sync
 
-
 Живой результат: https://orders-sync-chi.vercel.app/result
+
 Мини-синхронизатор заявок: забирает `https://test.ooobs.ru/api/orders`, нормализует телефоны к `+7XXXXXXXXXX`, отбрасывает невалидные, дедуплицирует по телефону и отдаёт JSON `{ clients, stats }`.
 
 - Любой путь (`/`, `/sync`) запускает синхронизацию и возвращает результат.
